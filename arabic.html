@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html class="dark" lang="en" dir="ltr">
+<html class="dark" lang="ar" dir="rtl">
 
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="color-scheme" content="dark light" />
-    <title>Athar Intelligence | أثر الذكاء — Sovereign AI & Digital Transformation</title>
+    <title>أثر الذكاء — الذكاء الاصطناعي والتحول الرقمي</title>
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
@@ -226,6 +226,23 @@
 
         ::-webkit-scrollbar-thumb:hover {
             background: #E8B84A;
+        }
+
+        html[dir="rtl"] body {
+            direction: rtl;
+            text-align: right;
+        }
+
+        html[dir="rtl"] .text-center {
+            text-align: center;
+        }
+
+        html[dir="rtl"] .text-left {
+            text-align: right;
+        }
+
+        html[dir="rtl"] .text-right {
+            text-align: left;
         }
 
         /* ═══════════════ CREATIVE ANIMATIONS ═══════════════ */
@@ -657,12 +674,12 @@
                     <!-- Language Selector (Desktop) -->
                     <div
                         class="hidden sm:flex items-center bg-surface-container-high rounded-full p-space-xxs border border-border-subtle">
-                        <button
+                        <a href="index.html"
                             class="px-space-sm py-space-xxs rounded-full font-label-md text-label-md text-on-primary bg-primary font-bold shadow-sm"
-                            type="button">EN</button>
+                            lang="en" dir="ltr">الإنجليزية</a>
                         <a href="arabic.html"
                             class="px-space-sm py-space-xxs rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors"
-                            lang="ar" dir="rtl">Arabic</a>
+                            lang="ar" dir="rtl">العربية</a>
                     </div>
 
                     <!-- Theme Mode Toggle -->
@@ -683,10 +700,10 @@
                     </a> -->
 
                     <!-- Direct Call Link (Icon on mobile, full on lg+) -->
-                    <a class="flex items-center justify-center w-9 h-9 sm:w-auto sm:h-auto sm:px-2 rounded-lg bg-surface-container-high/60 sm:bg-transparent border border-border-subtle sm:border-transparent text-xs font-mono text-text-secondary-dark hover:text-intelligence-cyan transition-colors"
+                    <a dir="ltr" class="flex items-center justify-center w-9 h-9 sm:w-auto sm:h-auto sm:px-2 rounded-lg bg-surface-container-high/60 sm:bg-transparent border border-border-subtle sm:border-transparent text-xs font-mono text-text-secondary-dark hover:text-intelligence-cyan transition-colors"
                         href="tel:+966597767751" aria-label="Call Athar Executive Desk">
                         <span class="material-symbols-outlined text-[18px] text-intelligence-cyan sm:mr-1">call</span>
-                        <span class="hidden lg:inline" dir="ltr">+966 59 776 7751</span>
+                        <span class="hidden lg:inline">+966 59 776 7751</span>
                     </a>
 
                     <!-- MOBILE HAMBURGER MENU TOGGLE BUTTON (Visible on <xl) -->
@@ -762,11 +779,11 @@
                         <span class="text-xs text-text-secondary-dark font-medium pl-2">Language / اللغة</span>
                         <div
                             class="flex items-center bg-surface-container-high rounded-lg p-1 border border-border-subtle">
-                            <button class="px-3 py-1 rounded-md text-xs font-bold text-on-primary bg-primary shadow-xs"
-                                type="button">EN</button>
+                            <a href="index.html" class="px-3 py-1 rounded-md text-xs font-bold text-on-primary bg-primary shadow-xs"
+                                lang="en" dir="ltr">الإنجليزية</a>
                             <a href="arabic.html"
                                 class="px-3 py-1 rounded-md text-xs font-bold text-on-surface-variant hover:text-on-surface transition-colors"
-                                lang="ar" dir="rtl">Arabic</a>
+                                lang="ar" dir="rtl">العربية</a>
                         </div>
                     </div>
 
@@ -2327,7 +2344,7 @@
             </section>
 
 
-            <!-- 8. ATHAR NEWS & COMPANY UPDATES -->
+            <!-- 5. أخبار أثر وتحديثات الشركة -->
             <section id="news" class="relative w-full py-space-4xl px-gutter-mobile lg:px-gutter-desktop bg-surface">
                 <div class="max-w-container-max mx-auto">
                     <!-- Section Header -->
@@ -2335,13 +2352,13 @@
                         <div
                             class="inline-flex items-center gap-space-xs px-space-md py-space-xxs rounded-full bg-surface-container text-gold-light font-label-md text-label-md">
                             <span class="material-symbols-outlined text-[16px]">verified</span>
-                            <span>ATHAR NEWS</span>
+                            <span>أخبار أثر</span>
                         </div>
                         <h2 class="font-headline-lg text-headline-lg text-text-primary-dark">
-                            News from Athar Intelligence
+                            آخر أخبار أثر الذكاء
                         </h2>
                         <p class="font-headline-sm text-title-md text-secondary font-bold">
-                            Company updates, partnerships, and practical impact across Saudi Arabia
+                            تحديثات وشراكات وأثر عملي في أنحاء المملكة العربية السعودية
                         </p>
                     </div>
                     <!-- POSTS Cards -->
@@ -2357,22 +2374,22 @@
                                 </div>
                                 <span
                                     class="absolute top-space-sm left-space-sm px-space-sm py-space-xxs rounded-full bg-surface-container-highest/80 backdrop-blur-md text-gold-light font-label-sm text-label-sm">
-                                    Company Update
+                                    تحديث الشركة
                                 </span>
                             </div>
                             <div class="p-space-lg flex-1 flex flex-col justify-between">
                                 <div>
                                     <h3
                                         class="font-title-md text-title-md text-text-primary-dark font-bold mb-space-xxs">
-                                        Athar Intelligence launches its sovereign AI advisory practice
+                                        أثر الذكاء تطلق ممارسة استشارية للذكاء الاصطناعي السيادي
                                     </h3>
                                     <p class="font-body-sm text-body-sm text-text-secondary-dark mb-space-md">
-                                        Our new advisory practice helps Saudi organizations move from AI strategy to
-                                        secure, measurable enterprise deployments aligned with Vision 2030.
+                                        تساعد الممارسة الجديدة المؤسسات السعودية على الانتقال من استراتيجية الذكاء
+                                        الاصطناعي إلى تطبيقات مؤسسية آمنة وقابلة للقياس ومتوافقة مع رؤية 2030.
                                     </p>
                                 </div>
                                 <div class="pt-space-sm flex items-center justify-between font-label-md text-label-md">
-                                    <span class="text-text-secondary-dark">Announcement</span>
+                                    <span class="text-text-secondary-dark">الإعلان</span>
                                     <span class="text-tertiary font-bold">2025</span>
                                 </div>
                             </div>
@@ -2388,23 +2405,23 @@
                                 </div>
                                 <span
                                     class="absolute top-space-sm left-space-sm px-space-sm py-space-xxs rounded-full bg-surface-container-highest/80 backdrop-blur-md text-intelligence-cyan font-label-sm text-label-sm">
-                                    Partnerships
+                                    شراكات استراتيجية
                                 </span>
                             </div>
                             <div class="p-space-lg flex-1 flex flex-col justify-between">
                                 <div>
                                     <h3
                                         class="font-title-md text-title-md text-text-primary-dark font-bold mb-space-xxs">
-                                        Building trusted partnerships for Saudi digital transformation
+                                        بناء شراكات موثوقة للتحول الرقمي السعودي
                                     </h3>
                                     <p class="font-body-sm text-body-sm text-text-secondary-dark mb-space-md">
-                                        Athar Intelligence is expanding collaboration with public and private-sector
-                                        leaders across the Kingdom to deliver sovereign, practical digital solutions.
+                                        توسع أثر الذكاء تعاونها مع قادة القطاعين العام والخاص في المملكة لتقديم
+                                        حلول رقمية سيادية وعملية.
                                     </p>
                                 </div>
                                 <div class="pt-space-sm flex items-center justify-between font-label-md text-label-md">
-                                    <span class="text-text-secondary-dark">Focus</span>
-                                    <span class="text-intelligence-cyan font-bold">Saudi Vision 2030</span>
+                                    <span class="text-text-secondary-dark">التركيز</span>
+                                    <span class="text-intelligence-cyan font-bold">رؤية السعودية 2030</span>
                                 </div>
                             </div>
                         </div>
@@ -2419,23 +2436,23 @@
                                 </div>
                                 <span
                                     class="absolute top-space-sm left-space-sm px-space-sm py-space-xxs rounded-full bg-surface-container-highest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm">
-                                    Capability Update
+                                    تحديث القدرات
                                 </span>
                             </div>
                             <div class="p-space-lg flex-1 flex flex-col justify-between">
                                 <div>
                                     <h3
                                         class="font-title-md text-title-md text-text-primary-dark font-bold mb-space-xxs">
-                                        Athar expands Arabic NLP and cybersecurity capabilities
+                                        أثر الذكاء توسع قدراتها في معالجة اللغة العربية والأمن السيبراني
                                     </h3>
                                     <p class="font-body-sm text-body-sm text-text-secondary-dark mb-space-md">
-                                        New localized language and managed security capabilities support Arabic-first
-                                        experiences, resilient platforms, and compliant operations.
+                                        تدعم القدرات الجديدة تجارب عربية أولًا ومنصات مرنة وعمليات متوافقة مع
+                                        المتطلبات التنظيمية.
                                     </p>
                                 </div>
                                 <div class="pt-space-sm flex items-center justify-between font-label-md text-label-md">
-                                    <span class="text-text-secondary-dark">Capability</span>
-                                    <span class="text-gold-light font-bold">Arabic-first AI</span>
+                                    <span class="text-text-secondary-dark">القدرة</span>
+                                    <span class="text-gold-light font-bold">ذكاء اصطناعي عربي أولًا</span>
                                 </div>
                             </div>
                         </div>
@@ -2625,36 +2642,279 @@
                 · تواصل</span>
         </a>
         <a href="#news" class="scrollspy-dot group relative p-1.5 flex items-center justify-center"
-            data-target="news" aria-label="Athar News">
+            data-target="news" aria-label="أخبار أثر">
             <span
                 class="dot-inner w-2.5 h-2.5 rounded-full bg-border-subtle group-hover:bg-gold-light transition-all duration-300"></span>
             <span
-                class="dot-tooltip pointer-events-none absolute left-full ml-3 px-2.5 py-1 rounded bg-surface-container-highest text-text-primary-dark text-xs font-mono whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all shadow-lg border border-border-subtle">Athar
-                News · الأخبار</span>
+                class="dot-tooltip pointer-events-none absolute left-full ml-3 px-2.5 py-1 rounded bg-surface-container-highest text-text-primary-dark text-xs font-mono whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all shadow-lg border border-border-subtle">أخبار
+                أثر · الأخبار</span>
         </a>
     </nav>
 
     <script>
         (function () {
-            const arabicPattern = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/g;
-            document.title = 'Athar Intelligence | Sovereign AI & Digital Transformation';
+            const translations = {
+                'Services': 'الخدمات',
+                'Target Sectors': 'القطاعات المستهدفة',
+                'Methodology': 'المنهجية',
+                'Vision & Values': 'الرؤية والقيم',
+                'Why Athar': 'لماذا أثر',
+                'Contact': 'تواصل معنا',
+                'Services & 4 Pillars': 'الخدمات والركائز الأربع',
+                'Contact & Gateway': 'التواصل وبوابة الشراكة',
+                'Language / اللغة': 'اللغة / Language',
+                'Book Executive Consultation': 'احجز استشارة تنفيذية',
+                'Where Intelligence Creates ': 'حيث يصنع الذكاء ',
+                'Impact': 'الأثر',
+                'Explore Our 4 Pillars': 'اكتشف ركائزنا الأربع',
+                'Request Executive Briefing': 'اطلب إحاطة تنفيذية',
+                'NCA & ECC Compliant': 'متوافق مع NCA و ECC',
+                'Saudi Vision 2030 Digital Partner': 'شريك التحول الرقمي لرؤية السعودية 2030',
+                'OUR MISSION · رسالتنا': 'رسالتنا · OUR MISSION',
+                'OUR VISION · رؤيتنا': 'رؤيتنا · OUR VISION',
+                'Our Core Values · قيمنا الجوهرية': 'قيمنا الجوهرية · Our Core Values',
+                'Innovation': 'الابتكار',
+                'Excellence': 'التميز',
+                'Trust': 'الثقة',
+                'Integrity': 'النزاهة',
+                'FOUNDATIONAL PILLARS': 'الركائز الأساسية',
+                'THE 4 STRATEGIC PILLARS': 'الركائز الاستراتيجية الأربع',
+                'Comprehensive Enterprise Solutions': 'حلول مؤسسية متكاملة',
+                'Delivery Methodology': 'منهجية التنفيذ',
+                'Target Sectors': 'القطاعات المستهدفة',
+                'Why Choose Athar?': 'لماذا تختار أثر؟',
+                'Executive Consultation': 'استشارة تنفيذية',
+                '24/7': 'على مدار الساعة',
+                'Active': 'نشط',
+                'Where Intelligence Creates Impact': 'حيث يصنع الذكاء الأثر',
+                'Read Case Study': 'اقرأ دراسة الحالة',
+                'Learn More': 'اعرف المزيد'
+            };
+
+            const phraseTranslations = {
+                'Empowering Saudi enterprises through AI-driven solutions, expert technical consulting, and secure digital transformation.': 'تمكين المؤسسات السعودية من خلال حلول مدعومة بالذكاء الاصطناعي واستشارات تقنية متخصصة وتحول رقمي آمن.',
+                'Building scalable platforms, localized Arabic NLP, and 24/7 sovereign cybersecurity aligned with Saudi Vision 2030.': 'نبني منصات قابلة للتوسع ومعالجة لغوية عربية محلية وأمنًا سيبرانيًا سياديًا على مدار الساعة، بما يتوافق مع رؤية السعودية 2030.',
+                'Our core capabilities span end-to-end artificial intelligence, deep management and technical consulting, robust digital platforms, and nation-grade cybersecurity.': 'تمتد قدراتنا الأساسية من الذكاء الاصطناعي المتكامل إلى الاستشارات الإدارية والتقنية المتخصصة والمنصات الرقمية المتينة والأمن السيبراني بمستوى وطني.',
+                'Where Intelligence Creates': 'حيث يصنع الذكاء',
+                'Pioneering creative': 'نقود الابتكار الإبداعي',
+                'Delivering': 'نقدم أعلى مستويات',
+                'Building enduring': 'نبني علاقات مستدامة',
+                'Measuring value': 'نقيس القيمة',
+                'Uncompromising': 'نزاهة راسخة بلا تنازل'
+            };
+
             const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
             const nodes = [];
             let node;
             while ((node = walker.nextNode())) nodes.push(node);
 
             nodes.forEach(textNode => {
-                textNode.nodeValue = textNode.nodeValue
-                    .replace(arabicPattern, '')
-                    .replace(/\(\s*\)/g, '')
-                    .replace(/\s{2,}/g, ' ');
+                const value = textNode.nodeValue.trim();
+                if (!value) return;
+                const translated = translations[value];
+                if (translated) textNode.nodeValue = textNode.nodeValue.replace(value, translated);
+                Object.entries(phraseTranslations).forEach(([phrase, arabic]) => {
+                    if (textNode.nodeValue.includes(phrase)) {
+                        textNode.nodeValue = textNode.nodeValue.replace(phrase, arabic);
+                    }
+                });
             });
+        })();
+    </script>
+
+    <script>
+        (function () {
+            const commonTranslations = {
+                'Artificial Intelligence Solutions': 'حلول الذكاء الاصطناعي',
+                'Technical Consulting': 'الاستشارات التقنية',
+                'Digital Platforms': 'المنصات الرقمية',
+                'Cybersecurity & Info Security': 'الأمن السيبراني وأمن المعلومات',
+                'Discover & Audit': 'الاكتشاف والتدقيق',
+                'Strategy & Architecture': 'الاستراتيجية والمعمارية',
+                'Agile Build & Deploy': 'البناء والنشر المرن',
+                'Governance & Support': 'الحوكمة والدعم',
+                'Government & Public Sector': 'القطاع الحكومي والعام',
+                'Financial Services & Banking': 'الخدمات المالية والمصرفية',
+                'Healthcare & Life Sciences': 'الرعاية الصحية وعلوم الحياة',
+                'Enterprise & Retail': 'المؤسسات وتجارة التجزئة',
+                'Logistics & Supply Chain': 'الخدمات اللوجستية وسلاسل الإمداد',
+                'Energy & Utilities': 'الطاقة والمرافق',
+                'SYSTEMATIC EXECUTION': 'التنفيذ المنهجي',
+                'STRATEGIC ECOSYSTEMS': 'المنظومات الاستراتيجية',
+                'Enterprise Architecture': 'المعمارية المؤسسية',
+                'Cybersecurity Governance': 'حوكمة الأمن السيبراني',
+                'Arabic NLP & LLMs': 'معالجة اللغة العربية ونماذج اللغة الكبيرة',
+                'Sovereign Data Mesh': 'شبكة البيانات السيادية',
+                'Client Satisfaction': 'رضا العملاء',
+                'NCA Standards': 'معايير الهيئة الوطنية للأمن السيبراني',
+                'SOC Operations': 'عمليات مركز العمليات السيبرانية'
+                ,'Saudi Vision 2030 Digital Partner': 'شريك التحول الرقمي لرؤية السعودية 2030'
+                ,'NCA & ECC Compliant': 'متوافق مع ضوابط الهيئة الوطنية للأمن السيبراني'
+                ,'IR4.0 Acceleration': 'تسريع الثورة الصناعية الرابعة'
+                ,'Domain-Adaptive Arabic': 'ذكاء اصطناعي عربي متكيف مع المجال'
+                ,'Dialectal Precision': 'دقة اللهجات العربية'
+                ,'100% In-Kingdom Residency': 'استضافة كاملة داخل المملكة'
+                ,'NATIVE KSA GENERATIVE INFERENCE ENGINE v4.2': 'محرك الاستدلال التوليدي الوطني v4.2'
+                ,'Enterprise Architecture': 'المعمارية المؤسسية'
+                ,'TOGAF® & Cloud Native': 'TOGAF® والسحابة الأصلية'
+                ,'Cybersecurity Governance': 'حوكمة الأمن السيبراني'
+                ,'ECC / CSCC Audited': 'مدقق وفق ECC وCSCC'
+                ,'CORE': 'النواة'
+                ,'ACTIVE': 'نشط'
+                ,'Deliver Innovative, Secure, and Measurable AI Excellence': 'نقدم تميزًا مبتكرًا وآمنًا وقابلًا للقياس في الذكاء الاصطناعي'
+                ,'The Kingdom’s Leading Intelligent Digital Solutions Partner': 'الشريك الرائد للحلول الرقمية الذكية في المملكة'
+                ,"To be the leading intelligent digital solutions partner in Saudi Arabia, recognized for empowering organizations to thrive in the digital era and significantly contributing to the Kingdom's transformation into a global technology and innovation hub by 2030.": 'أن نكون الشريك الرائد للحلول الرقمية الذكية في السعودية، وأن نمكّن المؤسسات من الازدهار في العصر الرقمي ونساهم في تحول المملكة إلى مركز عالمي للتقنية والابتكار بحلول عام 2030.'
+                ,'FOUNDATIONAL PILLARS': 'الركائز الأساسية'
+                ,'Tailored machine learning models, sovereign generative AI architectures, and predictive analytics tuned for domestic corporate requirements.': 'نماذج تعلم آلي مخصصة، ومعماريات ذكاء اصطناعي توليدي سيادية، وتحليلات تنبؤية مصممة لتلبية متطلبات الشركات المحلية.'
+                ,'Strategic enterprise IT advisory aligning technology investments with business objectives, legacy modernization, and TOGAF standards.': 'استشارات استراتيجية لتقنية المعلومات المؤسسية توائم الاستثمارات التقنية مع أهداف الأعمال وتحديث الأنظمة القديمة ومعايير TOGAF.'
+                ,'Engineering highly available, scalable enterprise web portals, cross-platform mobile ecosystems, and API-driven microservices.': 'هندسة بوابات ويب مؤسسية عالية التوافر وقابلة للتوسع، ومنظومات جوال متعددة المنصات، وخدمات مصغرة مدفوعة بواجهات API.'
+                ,'Comprehensive defense frameworks, regulatory compliance guarantees, and round-the-clock incident detection protecting critical assets.': 'أطر دفاع شاملة، وضمانات امتثال تنظيمي، وكشف للحوادث على مدار الساعة لحماية الأصول الحيوية.'
+                ,'Iterative, rigorous, and ISO/NCA-aligned delivery framework': 'إطار تنفيذ تكراري ودقيق ومتوافق مع معايير ISO وNCA'
+                ,'Comprehensive audit of existing IT infrastructure, data assets, cybersecurity posture, and regulatory compliance readiness.': 'تدقيق شامل للبنية التحتية الحالية لتقنية المعلومات وأصول البيانات ووضع الأمن السيبراني وجاهزية الامتثال التنظيمي.'
+                ,'Phase: Discovery & Readiness': 'المرحلة: الاكتشاف والجاهزية'
+                ,'Formulating bespoke digital roadmaps, TOGAF-compliant target architectures, and detailed risk mitigation strategies.': 'إعداد خرائط طريق رقمية مخصصة ومعماريات مستهدفة متوافقة مع TOGAF واستراتيجيات تفصيلية لتخفيف المخاطر.'
+                ,'Phase: Blueprint & Governance': 'المرحلة: المخطط والحوكمة'
+                ,'Sprint-based agile engineering, automated CI/CD pipeline integration, rigorous security testing, and production rollout.': 'هندسة مرنة قائمة على دورات قصيرة، وتكامل آلي لخطوط CI/CD، واختبارات أمنية دقيقة، وإطلاق إلى بيئة الإنتاج.'
+                ,'Phase: Engineering & Launch': 'المرحلة: الهندسة والإطلاق'
+                ,'24/7 managed operations, continuous model retraining, SLA guarantees, and recurring compliance adherence audits.': 'عمليات مُدارة على مدار الساعة، وإعادة تدريب مستمرة للنماذج، وضمانات اتفاقيات مستوى الخدمة، وتدقيق دوري للامتثال.'
+                ,'Phase: Managed Excellence': 'المرحلة: التميز المُدار'
+                ,'Civic automation platforms, citizen-facing Arabic chatbots, secure inter-ministerial data exchange meshes, and strict compliance with national mandates.': 'منصات لأتمتة الخدمات الحكومية، وروبوتات محادثة عربية للمواطنين، وشبكات آمنة لتبادل البيانات بين الجهات، وامتثال صارم للمتطلبات الوطنية.'
+                ,'SDAIA & NDMO Aligned': 'متوافق مع سدايا وNDMO'
+                ,'Real-time fraud detection neural graphs, AML automation, microsecond risk scoring, and SAMA cybersecurity framework integration.': 'رسوم بيانية عصبية لكشف الاحتيال الفوري، وأتمتة مكافحة غسل الأموال، وتقييم مخاطر بالميكروثانية، وتكامل مع إطار الأمن السيبراني لساما.'
+                ,'SAMA Framework Audited': 'مدقق وفق إطار ساما'
+                ,'Clinical diagnosis support algorithms, intelligent patient triage systems, and hospital resource capacity forecasting adhering to national health privacy standards.': 'خوارزميات لدعم التشخيص السريري، وأنظمة ذكية لفرز المرضى، وتنبؤ بطاقة موارد المستشفيات وفق معايير الخصوصية الصحية الوطنية.'
+                ,'Medical Data Privacy Compliant': 'متوافق مع خصوصية البيانات الطبية'
+                ,'Personalized recommendation engines, multi-channel commerce portals, automated dynamic pricing, and inventory optimization analytics.': 'محركات توصية مخصصة، وبوابات تجارة متعددة القنوات، وتسعير ديناميكي آلي، وتحليلات لتحسين المخزون.'
+                ,'Omnichannel Commerce': 'تجارة متعددة القنوات'
+                ,'Fleet route intelligence, automated port terminal scheduling, predictive warehouse storage management, and shipment condition telemetry.': 'ذكاء مسارات الأساطيل، وجدولة آلية لمحطات الموانئ، وإدارة تنبؤية لتخزين المستودعات، ومراقبة حالة الشحنات.'
+                ,'Smart Transport & Ports': 'النقل والموانئ الذكية'
+                ,'Smart grid load optimization, predictive pipeline integrity telemetry, SCADA system security hardening, and carbon footprint reduction models.': 'تحسين أحمال الشبكات الذكية، ومراقبة تنبؤية لسلامة خطوط الأنابيب، وتعزيز أمن أنظمة SCADA، ونماذج لخفض البصمة الكربونية.'
+                ,'Smart Energy & SCADA': 'الطاقة الذكية وSCADA'
+                ,'Our Distinct Competitive Edge': 'ميزتنا التنافسية المتميزة'
+                ,'Bridging international engineering benchmarks with authentic Saudi regulatory frameworks and localized Arabic linguistic models.': 'نربط المعايير الهندسية العالمية بالأطر التنظيمية السعودية الأصيلة والنماذج اللغوية العربية المحلية.'
+                ,'Proven AI Expertise': 'خبرة مثبتة في الذكاء الاصطناعي'
+                ,'Hands-on experience deploying complex multi-modal models in mission-critical settings.': 'خبرة عملية في نشر نماذج متعددة الوسائط ومعقدة ضمن بيئات بالغة الأهمية.'
+                ,'Local Insight & Global Standards': 'فهم محلي ومعايير عالمية'
+                ,'Deep Saudi business context combined with tier-one global architectural standards.': 'فهم عميق لبيئة الأعمال السعودية مع معايير معمارية عالمية من المستوى الأول.'
+                ,'End-to-End Delivery': 'تنفيذ متكامل من البداية إلى النهاية'
+                ,'Full lifecycle execution from strategy and architecture through to deployment and 24/7 SOC.': 'تنفيذ كامل لدورة العمل من الاستراتيجية والمعمارية حتى النشر ومركز العمليات السيبرانية على مدار الساعة.'
+                ,'Arabic NLP Leadership': 'ريادة معالجة اللغة العربية'
+                ,'Proprietary tokenizers and contextual understanding of local Gulf and Saudi dialects.': 'أدوات تجزئة مملوكة وفهم سياقي للهجات الخليجية والسعودية المحلية.'
+                ,'Enterprise Trusted': 'ثقة المؤسسات'
+                ,'Full compliance with NCA, NDMO, and Saudi government data residency requirements.': 'امتثال كامل لمتطلبات NCA وNDMO وإقامة بيانات الحكومة السعودية.'
+                ,'Agile Delivery Framework': 'إطار التنفيذ المرن'
+                ,'Rapid proof-of-concepts evolving seamlessly into scalable enterprise deployments.': 'نماذج أولية سريعة تتطور بسلاسة إلى عمليات نشر مؤسسية قابلة للتوسع.'
+                ,'Ethical AI Governance': 'حوكمة أخلاقية للذكاء الاصطناعي'
+                ,'Transparent, bias-audited algorithms built strictly upon ethical AI guidelines.': 'خوارزميات شفافة خضعت لتدقيق التحيز ومبنية وفق إرشادات الذكاء الاصطناعي الأخلاقية.'
+                ,'SME & Enterprise Focus': 'تركيز على المنشآت الصغيرة والمؤسسات'
+                ,'Scalable engagement models tailored for leading public institutions and dynamic SMEs alike.': 'نماذج تعاون قابلة للتوسع مصممة للمؤسسات العامة الرائدة والمنشآت الصغيرة والمتوسطة الديناميكية.'
+                ,'START THE CONVERSATION': 'ابدأ المحادثة'
+                ,'Ready to Accelerate Your Transformation?': 'هل أنت مستعد لتسريع تحولك؟'
+                ,'Connect with our senior architects and AI strategists to discuss tailored proof-of-concept modeling, security assessments, or full-scale digital transformation.': 'تواصل مع كبار معماريينا واستراتيجيي الذكاء الاصطناعي لمناقشة النماذج الأولية المخصصة أو تقييمات الأمن أو التحول الرقمي الشامل.'
+                ,'HEADQUARTERS': 'المقر الرئيسي'
+                ,'Makkah Al-Mukarramah, Kingdom of Saudi Arabia': 'مكة المكرمة، المملكة العربية السعودية'
+                ,'COMMERCIAL REGISTRATION': 'السجل التجاري'
+                ,'CR: 7050509608 | LLC': 'السجل التجاري: 7050509608 | شركة ذات مسؤولية محدودة'
+                ,'DIRECT PHONE (KSA)': 'الهاتف المباشر (السعودية)'
+                ,'OFFICIAL INQUIRIES': 'الاستفسارات الرسمية'
+                ,'OFFICIAL PORTAL': 'البوابة الرسمية'
+                ,'Mutual NDA Standard': 'معيار اتفاقية عدم الإفصاح المتبادل'
+                ,'Response within 4 Business Hours': 'الرد خلال 4 ساعات عمل'
+                ,'Enterprise Work Email': 'البريد الإلكتروني للعمل المؤسسي'
+                ,'Mobile Phone (KSA / GCC)': 'الهاتف المحمول (السعودية / الخليج)'
+                ,'Pillar of Interest': 'الركيزة محل الاهتمام'
+                ,'Industry Sector': 'القطاع الصناعي'
+                ,'Submit Consultation Request': 'إرسال طلب الاستشارة'
+                ,'Direct dispatch to Athar Executive Advisory · Makkah Al-Mukarramah, Saudi Arabia.': 'إرسال مباشر إلى الاستشارات التنفيذية لأثر · مكة المكرمة، المملكة العربية السعودية.'
+                ,'MEASURABLE OUTCOMES': 'نتائج قابلة للقياس'
+                ,'Impact That Reshapes Industries': 'أثر يعيد تشكيل الصناعات'
+                ,'Energy & Petrochemicals': 'الطاقة والبتروكيماويات'
+                ,'Predictive Maintenance at Eastern Province Petrochemical Complex': 'الصيانة التنبؤية في مجمع بتروكيماويات المنطقة الشرقية'
+                ,'Deployed acoustic and sensor neural networks on 12,000+ critical pumps, averting catastrophic downtime.': 'نشرنا شبكات عصبية صوتية وحسية على أكثر من 12,000 مضخة حيوية، مما حال دون توقف كارثي.'
+                ,'Downtime Mitigated': 'خفض وقت التوقف'
+                ,'Tier-1 Sovereign Banking': 'مصرفية سيادية من المستوى الأول'
+                ,'Real-Time Anti-Money Laundering Neural Graph for GCC Bank': 'رسم بياني عصبي فوري لمكافحة غسل الأموال في بنك خليجي'
+                ,'Real-time transaction tracing detecting obfuscated illicit flows with under 3ms evaluation latency per transfer.': 'تتبع فوري للمعاملات يكشف التدفقات غير المشروعة المخفية بزمن تقييم أقل من 3 مللي ثانية لكل تحويل.'
+                ,'False Positives': 'الإنذارات الكاذبة'
+                ,'Giga-Project Infrastructure': 'بنية المشاريع العملاقة'
+                ,'Autonomous Crowd Dynamics & Spatial Routing Engine': 'محرك مستقل لديناميكيات الحشود والتوجيه المكاني'
+                ,'Computer vision models orchestrating foot traffic and autonomous transit fleets across 40 square kilometers.': 'نماذج رؤية حاسوبية تنظم حركة المشاة وأساطيل النقل المستقلة عبر 40 كيلومترًا مربعًا.'
+                ,'Transit Efficiency': 'كفاءة النقل'
+                ,'The 4 Pillars': 'الركائز الأربع'
+                ,'Headquarters & Direct': 'المقر الرئيسي والتواصل المباشر'
+                ,'Athar Intelligence LLC': 'شركة أثر الذكاء'
+                ,'Government & Public': 'الحكومة والقطاع العام'
+                ,'Banking & FinTech': 'المصرفية والتقنية المالية'
+                ,'Energy & Logistics': 'الطاقة والخدمات اللوجستية'
+                ,'Mission & Values': 'الرسالة والقيم'
+                ,'Delivery Framework': 'إطار التنفيذ'
+                ,'Makkah Al-Mukarramah & KSA Datacenters': 'مراكز بيانات مكة المكرمة والمملكة العربية السعودية'
+                ,'Microservices, API Gateways & Hybrid Cloud': 'الخدمات المصغرة وبوابات API والسحابة الهجينة'
+                ,'Zero Trust, Penetration Testing & SIEM/SOC': 'الثقة الصفرية واختبار الاختراق وSIEM/SOC'
+                ,'PILLAR 01': 'الركيزة 01'
+                ,'PILLAR 02': 'الركيزة 02'
+                ,'PILLAR 03': 'الركيزة 03'
+                ,'PILLAR 04': 'الركيزة 04'
+                ,'Cloud Native': 'السحابة الأصلية'
+                ,'Arabic NLP': 'معالجة اللغة العربية'
+                ,'React Native': 'ريأكت للتطبيقات الأصلية'
+                ,'Microservices': 'الخدمات المصغرة'
+                ,'Node.js': 'منصة Node.js'
+                ,'-48% Incidents': 'خفض الحوادث بنسبة 48٪-'
+                ,'-82% Reduction': 'خفض بنسبة 82٪-'
+                ,'+34% Throughput': 'زيادة الإنتاجية بنسبة 34٪+'
+                ,'ATHAR INTELLIGENCE': 'أثر الذكاء'
+                ,'LLC': 'شركة ذات مسؤولية محدودة'
+                ,'CR: 7050509608 · Registered in KSA': 'السجل التجاري: 7050509608 · مسجل في المملكة العربية السعودية'
+                ,'Makkah Al-Mukarramah': 'مكة المكرمة'
+                ,'Kingdom of Saudi Arabia': 'المملكة العربية السعودية'
+                ,'100% NCA & ECC Compliant': 'متوافق 100٪ مع ضوابط NCA وECC'
+                ,'Light Mode': 'الوضع الفاتح'
+                ,'Zero Trust': 'الثقة الصفرية'
+                ,'NCA ECC': 'ضوابط NCA وECC'
+                ,'SOC 24/7': 'مركز العمليات السيبرانية على مدار الساعة'
+            };
+
+            const arabicPattern = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/;
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+            const nodes = [];
+            let node;
+            while ((node = walker.nextNode())) nodes.push(node);
+
+            nodes.forEach(textNode => {
+                let value = textNode.nodeValue;
+                const normalized = value.replace(/\s+/g, ' ').trim();
+                const directTranslation = Object.entries(commonTranslations).find(([english]) => english.toLowerCase() === normalized.toLowerCase());
+                if (directTranslation) {
+                    textNode.nodeValue = directTranslation[1];
+                    return;
+                }
+                if (commonTranslations[normalized]) {
+                    textNode.nodeValue = value.replace(normalized, commonTranslations[normalized]);
+                    return;
+                }
+
+                Object.entries(commonTranslations).forEach(([english, arabic]) => {
+                    value = value.replace(new RegExp(english.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), arabic);
+                });
+
+                // Prefer Arabic text already supplied in bilingual labels, preserving the full block when no Arabic exists.
+                value = value.replace(/[^()]*\(([^()]*[\u0600-\u06FF][^()]*)\)/g, '$1');
+                if (arabicPattern.test(value)) {
+                    value = value.replace(/[A-Za-z]+(?:[.'-][A-Za-z0-9]+)*/g, '').replace(/\(\s*[,/&\s]*\)/g, '').replace(/\s{2,}/g, ' ');
+                }
+                textNode.nodeValue = value;
+            });
+
+            const heroParagraphs = document.querySelector('main section')?.querySelectorAll('p');
+            if (heroParagraphs?.[1]) {
+                heroParagraphs[1].textContent = 'تمكين المؤسسات السعودية من خلال حلول الذكاء الاصطناعي والاستشارات التقنية المتخصصة والتحول الرقمي الآمن. نبني منصات قابلة للتوسع ومعالجة لغوية عربية محلية وأمنًا سيبرانيًا سياديًا متوافقًا مع رؤية السعودية 2030.';
+            }
 
             document.querySelectorAll('[alt], [title], [aria-label]').forEach(element => {
                 ['alt', 'title', 'aria-label'].forEach(attribute => {
-                    if (element.hasAttribute(attribute)) {
-                        element.setAttribute(attribute, element.getAttribute(attribute)
-                            .replace(arabicPattern, '').replace(/\s{2,}/g, ' ').trim());
+                    if (element.hasAttribute(attribute) && arabicPattern.test(element.getAttribute(attribute))) {
+                        element.setAttribute(attribute, element.getAttribute(attribute).replace(/[A-Za-z]+(?:[.'-][A-Za-z0-9]+)*/g, '').replace(/\s{2,}/g, ' ').trim());
                     }
                 });
             });
