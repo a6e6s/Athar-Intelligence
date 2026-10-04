@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Al-Qahtani;Omar;;;
+FN:Omar Al-Qahtani
+ORG:Athar Intelligence
+TITLE:Managing Director
+EMAIL:omar@athar.example
+URL:https://athar.example
+NOTE:Sample contact. Replace before production.
+END:VCARD

@@ -1,0 +1,541 @@
+[
+  {
+    "document": "01-company-profile",
+    "pages": 11,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 756.796875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 722.671875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 3,
+        "contentBottom": 590.640625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 4,
+        "contentBottom": 648.234375,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 5,
+        "contentBottom": 717.484375,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 6,
+        "contentBottom": 692.234375,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 7,
+        "contentBottom": 713.71875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 8,
+        "contentBottom": 700.171875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 9,
+        "contentBottom": 695.609375,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 10,
+        "contentBottom": 615.9375,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 11,
+        "contentBottom": 701.46875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "02-business-card",
+    "pages": 2,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 170.21875,
+        "footerTop": 177.546875,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 149.4375,
+        "footerTop": 177.546875,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "03-letterhead",
+    "pages": 1,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 968.671875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "04-email-signature",
+    "pages": 1,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 868.1875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "05-company-stamp",
+    "pages": 1,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 809.765625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "06-quotation",
+    "pages": 3,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 806.53125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 723.875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 3,
+        "contentBottom": 816.1875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "07-invoice",
+    "pages": 3,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 933.5,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 723.875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 3,
+        "contentBottom": 981.046875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "08-receipt",
+    "pages": 1,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 975.828125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "09-proposal",
+    "pages": 6,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 756.796875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 720.5625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 3,
+        "contentBottom": 653.328125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 4,
+        "contentBottom": 780.03125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 5,
+        "contentBottom": 808.953125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 6,
+        "contentBottom": 805.5625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "10-contract",
+    "pages": 4,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 1031.203125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 858.0625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 3,
+        "contentBottom": 858.0625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 4,
+        "contentBottom": 902.265625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "11-nda",
+    "pages": 3,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 873.90625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 956.78125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 3,
+        "contentBottom": 641,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "12-purchase-order",
+    "pages": 3,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 806.53125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 723.875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 3,
+        "contentBottom": 888.28125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "13-job-offer",
+    "pages": 2,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 910.90625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 981.890625,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "14-hr-system",
+    "pages": 8,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 919.9375,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 930.296875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 3,
+        "contentBottom": 944.9375,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 4,
+        "contentBottom": 919.9375,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 5,
+        "contentBottom": 899.953125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 6,
+        "contentBottom": 899.953125,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 7,
+        "contentBottom": 944.9375,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 8,
+        "contentBottom": 907.96875,
+        "footerTop": 1048.203125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "document": "15-presentation",
+    "pages": 13,
+    "layout": [
+      {
+        "page": 1,
+        "contentBottom": 486.796875,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 2,
+        "contentBottom": 352.6875,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 3,
+        "contentBottom": 352.6875,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 4,
+        "contentBottom": 328.859375,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 5,
+        "contentBottom": 498.609375,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 6,
+        "contentBottom": 562.421875,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 7,
+        "contentBottom": 529.4375,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 8,
+        "contentBottom": 364.375,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 9,
+        "contentBottom": 456.859375,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 10,
+        "contentBottom": 456.859375,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 11,
+        "contentBottom": 610.59375,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 12,
+        "contentBottom": 516.75,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      },
+      {
+        "page": 13,
+        "contentBottom": 390.453125,
+        "footerTop": 657.03125,
+        "collision": false,
+        "horizontalOverflow": false
+      }
+    ],
+    "issues": []
+  }
+]

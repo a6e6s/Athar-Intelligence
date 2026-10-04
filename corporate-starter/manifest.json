@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "01-company-profile",
+    "en": "Company profile",
+    "ar": "الملف التعريفي",
+    "pages": 11,
+    "mode": "a4"
+  },
+  {
+    "slug": "02-business-card",
+    "en": "Business card",
+    "ar": "بطاقة العمل",
+    "pages": 2,
+    "mode": "card"
+  },
+  {
+    "slug": "03-letterhead",
+    "en": "Official letterhead",
+    "ar": "ورق المراسلات",
+    "pages": 1,
+    "mode": "a4"
+  },
+  {
+    "slug": "04-email-signature",
+    "en": "Email signature",
+    "ar": "توقيع البريد الإلكتروني",
+    "pages": 1,
+    "mode": "a4"
+  },
+  {
+    "slug": "05-company-stamp",
+    "en": "Company stamp",
+    "ar": "ختم الشركة",
+    "pages": 1,
+    "mode": "a4"
+  },
+  {
+    "slug": "06-quotation",
+    "en": "Quotation",
+    "ar": "عرض سعر",
+    "pages": 3,
+    "mode": "a4"
+  },
+  {
+    "slug": "07-invoice",
+    "en": "Tax invoice — design template",
+    "ar": "فاتورة ضريبية — قالب تصميم",
+    "pages": 3,
+    "mode": "a4"
+  },
+  {
+    "slug": "08-receipt",
+    "en": "Payment receipt",
+    "ar": "إيصال استلام دفعة",
+    "pages": 1,
+    "mode": "a4"
+  },
+  {
+    "slug": "09-proposal",
+    "en": "Proposal template",
+    "ar": "قالب المقترح",
+    "pages": 6,
+    "mode": "a4"
+  },
+  {
+    "slug": "10-contract",
+    "en": "Contract template",
+    "ar": "قالب العقد",
+    "pages": 4,
+    "mode": "a4"
+  },
+  {
+    "slug": "11-nda",
+    "en": "Non-disclosure agreement",
+    "ar": "اتفاقية عدم الإفصاح",
+    "pages": 3,
+    "mode": "a4"
+  },
+  {
+    "slug": "12-purchase-order",
+    "en": "Purchase order",
+    "ar": "أمر شراء",
+    "pages": 3,
+    "mode": "a4"
+  },
+  {
+    "slug": "13-job-offer",
+    "en": "Job offer",
+    "ar": "عرض وظيفي",
+    "pages": 2,
+    "mode": "a4"
+  },
+  {
+    "slug": "14-hr-system",
+    "en": "HR document system",
+    "ar": "نظام مستندات الموارد البشرية",
+    "pages": 8,
+    "mode": "a4"
+  },
+  {
+    "slug": "15-presentation",
+    "en": "Presentation system",
+    "ar": "نظام العروض التقديمية",
+    "pages": 13,
+    "mode": "slides"
+  }
+]
