@@ -2,7 +2,7 @@
 Dependencies: python-pptx, qrcode, Pillow. Run from any working directory.
 """
 from pathlib import Path
-import html, json, shutil
+import html, json, shutil, base64
 import qrcode
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -53,7 +53,8 @@ def document(slug,en,arabic,pages,mode='a4'):
     body{line-height:1.5}[lang=ar]{line-height:1.7}header{height:26mm;margin-bottom:6mm;padding-bottom:4mm}.title{margin-bottom:6mm}h2{margin-top:4mm}.grid{gap:3mm;margin:3mm 0}.data{padding:2.5mm 3mm}.note{margin:4mm 0;padding:2.5mm 3mm}.signature{height:14mm}.stamp-area{height:14mm;margin-top:4mm}
     .card-front img{width:29mm;height:29mm}.card-front [lang=ar]{font-size:7pt}.card-sheet .pair{gap:3mm}.card-sheet h1{font-size:10pt;line-height:1.3}.card-sheet .qr{width:21mm;height:21mm}.card-sheet p{line-height:1.6;font-size:7pt;margin:1mm 0}.card-sheet footer{font-size:4.5pt;bottom:2mm;padding-top:1mm}.card-sheet footer .contact{display:none}.card-sheet footer>div:last-child{margin-left:auto}.card-sheet .page-content{padding-top:1mm}.slide-sheet header{height:25mm}
     '''+('@page{size:85mm 55mm;margin:0}' if mode=='card' else '@page{size:338.667mm 190.5mm;margin:0}' if mode=='slides' else '')
-    runtime=JS
+    word_images = {f'../assets/{name}': 'data:image/png;base64,' + base64.b64encode((ASSETS/name).read_bytes()).decode() for name in ['Athar-Symbol.png', 'Athar-Horizontal.png', 'Athar-Int.png', 'contact-qr.png'] if f'src="../assets/{name}"' in body}
+    runtime=JS+'\nwindow.atharWordImages='+json.dumps(word_images)+';\n'+(ASSETS/'word-export.js').read_text()
     extra=''
     encoder=''
     if mode=='card':
@@ -61,7 +62,7 @@ def document(slug,en,arabic,pages,mode='a4'):
         runtime=runtime.replace('function saveTemplate(){', 'function saveTemplate(){window.updateContactQr();')
         encoder='<script>'+ (ASSETS/'qrcode-generator.js').read_text()+'</script>'
         extra='<script>'+ (ASSETS/'business-card.js').read_text()+'</script>'
-    output=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(en)} | أثر الذكاء</title><style>{style}</style></head><body><nav class="toolbar"><a href="../index.html">← Library / المكتبة</a><button onclick="window.print()">Print / PDF · طباعة</button><button onclick="saveTemplate()">Download edits / تنزيل</button><button onclick="resetTemplate()">Reset / إعادة</button><span id="status" class="status">Click underlined fields to edit / انقر الحقول المسطرة للتعديل</span></nav><main>{body}</main>{encoder}<script>{runtime}</script>{extra}</body></html>'''
+    output=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(en)} | أثر الذكاء</title><style>{style}</style></head><body><nav class="toolbar"><a href="../index.html">← Library / المكتبة</a><button onclick="window.print()">Print / PDF · طباعة</button><button onclick="exportWord(this)">Export Word / تصدير Word</button><button onclick="saveTemplate()">Download edits / تنزيل</button><button onclick="resetTemplate()">Reset / إعادة</button><span id="status" class="status">Click underlined fields to edit / انقر الحقول المسطرة للتعديل</span></nav><main>{body}</main>{encoder}<script>{runtime}</script>{extra}</body></html>'''
     (ROOT/'templates'/f'{slug}.html').write_text(output)
     DOCS.append(dict(slug=slug,en=en,ar=arabic,pages=len(pages),mode=mode))
 
